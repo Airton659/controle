@@ -1,16 +1,12 @@
 # controletv
 
-A new Flutter project.
+Sample Flutter application demonstrating a simple TV remote.
 
-## Getting Started
+The app includes two screens:
 
-This project is a starting point for a Flutter application.
+- **TV Discovery**: scans the local network for compatible televisions using
+  UPnP/SSDP and mDNS protocols.
+- **Remote Control**: provides basic controls such as volume, channel, menu and
+  access to smart apps.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This code is meant as a starting point for integrating real TV control APIs.
